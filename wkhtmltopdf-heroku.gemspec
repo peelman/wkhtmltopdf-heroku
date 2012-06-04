@@ -25,7 +25,7 @@ Gem::Specification.new do |s|
     "README.mdown",
     "Rakefile",
     "VERSION",
-    "bin/wkhtmltopdf-linux-amd64",
+    "bin/wkhtmltopdf-0.11_rc1-amd64",
     "lib/wkhtmltopdf-heroku.rb",
     "test/helper.rb",
     "test/test_wkhtmltopdf_heroku_and_osx_binaries.rb",
