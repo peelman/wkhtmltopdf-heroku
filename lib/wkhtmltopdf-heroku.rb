@@ -1,4 +1,4 @@
-WKHTMLTOPDF_PATH = File.expand_path "../../bin/wkhtmltopdf-0.11_rc1-amd64", __FILE__
+WKHTMLTOPDF_PATH = File.expand_path("../../bin/wkhtmltopdf-0.11_rc1-amd64", File.expand_path(__FILE__))
 
 begin
   require 'pdfkit'
@@ -11,7 +11,7 @@ end
 
 begin
   require 'wicked_pdf'
-
+  puts WKHTMLTOPDF_PATH
   WickedPdf.config[:exe_path] = WKHTMLTOPDF_PATH
 rescue LoadError
 end
