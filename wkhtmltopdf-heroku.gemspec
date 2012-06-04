@@ -12,7 +12,7 @@ Gem::Specification.new do |s|
   s.date = %q{2012-01-03}
   s.description = %q{wkhtmltopdf binaries heroku}
   s.email = %q{bradphelan@xtargets.com}
-  s.executables = [%q{wkhtmltopdf-linux-amd64}]
+  s.executables = [%q{wkhtmltopdf-0.11_rc1-amd64}]
   s.extra_rdoc_files = [
     "LICENSE.txt",
     "README.mdown"
