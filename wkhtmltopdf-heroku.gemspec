@@ -5,14 +5,14 @@
 
 Gem::Specification.new do |s|
   s.name = %q{wkhtmltopdf-heroku}
-  s.version = "0.1.3"
+  s.version = "0.1.4"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
-  s.authors = [%q{Brad Phelan}]
-  s.date = %q{2012-01-03}
+  s.authors = [%q{Brad Phelan, Nick Peelman}]
+  s.date = %q{2012-06-04}
   s.description = %q{wkhtmltopdf binaries heroku}
   s.email = %q{bradphelan@xtargets.com}
-  s.executables = [%q{wkhtmltopdf-0.11_rc1-amd64}]
+  s.executables = [%q{wkhtmltopdf-0.10_rc2-amd64}]
   s.extra_rdoc_files = [
     "LICENSE.txt",
     "README.mdown"
@@ -25,7 +25,7 @@ Gem::Specification.new do |s|
     "README.mdown",
     "Rakefile",
     "VERSION",
-    "bin/wkhtmltopdf-0.11_rc1-amd64",
+    "bin/wkhtmltopdf-0.10_rc2-amd64",
     "lib/wkhtmltopdf-heroku.rb",
     "test/helper.rb",
     "test/test_wkhtmltopdf_heroku_and_osx_binaries.rb",

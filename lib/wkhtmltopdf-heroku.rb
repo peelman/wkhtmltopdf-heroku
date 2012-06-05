@@ -11,7 +11,6 @@ end
 
 begin
   require 'wicked_pdf'
-  puts WKHTMLTOPDF_PATH
   WickedPdf.config[:exe_path] = WKHTMLTOPDF_PATH
 rescue LoadError
 end
